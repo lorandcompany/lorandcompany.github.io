@@ -10,9 +10,9 @@
 			padding: 2rem .5rem;
 		}
 
-		a {
+		p a {
 			color: #FFFFFF;
-			font-weight: bold
+			font-weight: bold;
 		}
 
 		.site-navbar {
@@ -28,14 +28,23 @@
 		.logo-section {
 			height: inherit;
 		}
+
 	</style>
 </head>
 <body>
 	<header class="navbar site-navbar">
 		<section class="navbar-section">
-			<a href="..." class="navbar-brand btn btn-link">Lor and Company</a>
-			<a href="..." class="btn btn-link">Docs</a>
-			<a href="..." class="btn btn-link">GitHub</a>
+			<a href="https://lor.company/index.html" class="navbar-brand btn btn-link">Lor and Company</a>
+			<div class="dropdown">
+  				<a href="#" class="btn btn-link dropdown-toggle" tabindex="0">
+  					Driver<i class="icon icon-caret"></i>
+ 				</a>
+ 				<ul class="menu">
+ 					<li><a href="https://lor.company/driver/privacy/index.html">Privacy Policy</a></li>
+ 					<li><a href="https://lor.company/driver/tos/index.html">Terms of Service</a></li>
+ 				</ul>
+			<a href="https://lor.company/index.html" class="btn btn-link">Collections</a>
+			<a href="https://lor.company/index.html" class="btn btn-link">Driver</a>
 		</section>
 		<section class="logo-section">
 			<img src="logo.svg" class="logo">
